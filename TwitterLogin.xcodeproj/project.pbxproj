@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		152CB9CB142BED7A008D37E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 152CB9CA142BED7A008D37E0 /* Foundation.framework */; };
+		152CB9CD142BED7A008D37E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 152CB9CC142BED7A008D37E0 /* UIKit.framework */; };
+		152CB9CF142BED7A008D37E0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 152CB9CE142BED7A008D37E0 /* CoreGraphics.framework */; };
+		152CB9D1142BED7A008D37E0 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 152CB9D0142BED7A008D37E0 /* AddressBook.framework */; };
+		152CB9D3142BED7A008D37E0 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 152CB9D2142BED7A008D37E0 /* AddressBookUI.framework */; };
+		152CB9D5142BED7A008D37E0 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 152CB9D4142BED7A008D37E0 /* AudioToolbox.framework */; };
+		152CB9D7142BED7A008D37E0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 152CB9D6142BED7A008D37E0 /* AVFoundation.framework */; };
+		152CB9D9142BED7A008D37E0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 152CB9D8142BED7A008D37E0 /* CoreLocation.framework */; };
+		152CB9DB142BED7A008D37E0 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 152CB9DA142BED7A008D37E0 /* MediaPlayer.framework */; };
+		152CB9DD142BED7A008D37E0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 152CB9DC142BED7A008D37E0 /* QuartzCore.framework */; };
+		152CB9DF142BED7A008D37E0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 152CB9DE142BED7A008D37E0 /* SystemConfiguration.framework */; };
+		152CB9E1142BED7A008D37E0 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 152CB9E0142BED7A008D37E0 /* MobileCoreServices.framework */; };
+		152CB9E3142BED7A008D37E0 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 152CB9E2142BED7A008D37E0 /* CoreMedia.framework */; };
+		152CB9E9142BED7A008D37E0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 152CB9E7142BED7A008D37E0 /* InfoPlist.strings */; };
+		152CB9EB142BED7A008D37E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 152CB9EA142BED7A008D37E0 /* main.m */; };
+		152CB9EE142BED7A008D37E0 /* PhoneGap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 152CB9ED142BED7A008D37E0 /* PhoneGap.framework */; };
+		152CB9F2142BED7A008D37E0 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 152CB9F1142BED7A008D37E0 /* icon.png */; };
+		152CB9F4142BED7A008D37E0 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 152CB9F3142BED7A008D37E0 /* icon@2x.png */; };
+		152CB9F6142BED7A008D37E0 /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 152CB9F5142BED7A008D37E0 /* icon-72.png */; };
+		152CB9F9142BED7A008D37E0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 152CB9F8142BED7A008D37E0 /* Default.png */; };
+		152CB9FB142BED7A008D37E0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 152CB9FA142BED7A008D37E0 /* Default@2x.png */; };
+		152CB9FD142BED7A008D37E0 /* Default~iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 152CB9FC142BED7A008D37E0 /* Default~iPad.png */; };
+		152CB9FF142BED7A008D37E0 /* Capture.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 152CB9FE142BED7A008D37E0 /* Capture.bundle */; };
+		152CBA01142BED7A008D37E0 /* PhoneGap.plist in Resources */ = {isa = PBXBuildFile; fileRef = 152CBA00142BED7A008D37E0 /* PhoneGap.plist */; };
+		152CBA05142BED7A008D37E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 152CBA04142BED7A008D37E0 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		152CB9C6142BED7A008D37E0 /* TwitterLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		152CB9CA142BED7A008D37E0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		152CB9CC142BED7A008D37E0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		152CB9CE142BED7A008D37E0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		152CB9D0142BED7A008D37E0 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		152CB9D2142BED7A008D37E0 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		152CB9D4142BED7A008D37E0 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		152CB9D6142BED7A008D37E0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		152CB9D8142BED7A008D37E0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		152CB9DA142BED7A008D37E0 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		152CB9DC142BED7A008D37E0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		152CB9DE142BED7A008D37E0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		152CB9E0142BED7A008D37E0 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		152CB9E2142BED7A008D37E0 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		152CB9E6142BED7A008D37E0 /* TwitterLogin-Info.plist */ = {isa = PBXFileReference; path = "TwitterLogin-Info.plist"; sourceTree = "<group>"; };
+		152CB9E8142BED7A008D37E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		152CB9EA142BED7A008D37E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		152CB9EC142BED7A008D37E0 /* TwitterLogin-Prefix.pch */ = {isa = PBXFileReference; path = "TwitterLogin-Prefix.pch"; sourceTree = "<group>"; };
+		152CB9ED142BED7A008D37E0 /* PhoneGap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhoneGap.framework; path = /Users/Shared/PhoneGap/Frameworks/PhoneGap.framework; sourceTree = "<absolute>"; };
+		152CB9F1142BED7A008D37E0 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = Resources/icons/icon.png; sourceTree = "<group>"; };
+		152CB9F3142BED7A008D37E0 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "Resources/icons/icon@2x.png"; sourceTree = "<group>"; };
+		152CB9F5142BED7A008D37E0 /* icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-72.png"; path = "Resources/icons/icon-72.png"; sourceTree = "<group>"; };
+		152CB9F8142BED7A008D37E0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Resources/splash/Default.png; sourceTree = "<group>"; };
+		152CB9FA142BED7A008D37E0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Resources/splash/Default@2x.png"; sourceTree = "<group>"; };
+		152CB9FC142BED7A008D37E0 /* Default~iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default~iPad.png"; path = "Resources/splash/Default~iPad.png"; sourceTree = "<group>"; };
+		152CB9FE142BED7A008D37E0 /* Capture.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Capture.bundle; path = Resources/Capture.bundle; sourceTree = "<group>"; };
+		152CBA00142BED7A008D37E0 /* PhoneGap.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PhoneGap.plist; sourceTree = "<group>"; };
+		152CBA03142BED7A008D37E0 /* AppDelegate.h */ = {isa = PBXFileReference; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
+		152CBA04142BED7A008D37E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
+		152CBA07142BED7A008D37E0 /* README */ = {isa = PBXFileReference; name = README; path = Plugins/README; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		152CB9C0142BED7A008D37E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				152CB9CB142BED7A008D37E0 /* Foundation.framework in Frameworks */,
+				152CB9CD142BED7A008D37E0 /* UIKit.framework in Frameworks */,
+				152CB9CF142BED7A008D37E0 /* CoreGraphics.framework in Frameworks */,
+				152CB9D1142BED7A008D37E0 /* AddressBook.framework in Frameworks */,
+				152CB9D3142BED7A008D37E0 /* AddressBookUI.framework in Frameworks */,
+				152CB9D5142BED7A008D37E0 /* AudioToolbox.framework in Frameworks */,
+				152CB9D7142BED7A008D37E0 /* AVFoundation.framework in Frameworks */,
+				152CB9D9142BED7A008D37E0 /* CoreLocation.framework in Frameworks */,
+				152CB9DB142BED7A008D37E0 /* MediaPlayer.framework in Frameworks */,
+				152CB9DD142BED7A008D37E0 /* QuartzCore.framework in Frameworks */,
+				152CB9DF142BED7A008D37E0 /* SystemConfiguration.framework in Frameworks */,
+				152CB9E1142BED7A008D37E0 /* MobileCoreServices.framework in Frameworks */,
+				152CB9E3142BED7A008D37E0 /* CoreMedia.framework in Frameworks */,
+				152CB9EE142BED7A008D37E0 /* PhoneGap.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		152CB9C3142BED7A008D37E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		152CB9B8142BED7A008D37E0 = {
+			isa = PBXGroup;
+			children = (
+				152CB9E4142BED7A008D37E0 /* TwitterLogin */,
+				152CB9C9142BED7A008D37E0 /* Frameworks */,
+				152CB9C7142BED7A008D37E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		152CB9C7142BED7A008D37E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				152CB9C6142BED7A008D37E0 /* TwitterLogin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		152CB9C9142BED7A008D37E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				152CB9CA142BED7A008D37E0 /* Foundation.framework */,
+				152CB9CC142BED7A008D37E0 /* UIKit.framework */,
+				152CB9CE142BED7A008D37E0 /* CoreGraphics.framework */,
+				152CB9D0142BED7A008D37E0 /* AddressBook.framework */,
+				152CB9D2142BED7A008D37E0 /* AddressBookUI.framework */,
+				152CB9D4142BED7A008D37E0 /* AudioToolbox.framework */,
+				152CB9D6142BED7A008D37E0 /* AVFoundation.framework */,
+				152CB9D8142BED7A008D37E0 /* CoreLocation.framework */,
+				152CB9DA142BED7A008D37E0 /* MediaPlayer.framework */,
+				152CB9DC142BED7A008D37E0 /* QuartzCore.framework */,
+				152CB9DE142BED7A008D37E0 /* SystemConfiguration.framework */,
+				152CB9E0142BED7A008D37E0 /* MobileCoreServices.framework */,
+				152CB9E2142BED7A008D37E0 /* CoreMedia.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		152CB9E4142BED7A008D37E0 /* TwitterLogin */ = {
+			isa = PBXGroup;
+			children = (
+				152CB9ED142BED7A008D37E0 /* PhoneGap.framework */,
+				152CB9EF142BED7A008D37E0 /* Resources */,
+				152CBA02142BED7A008D37E0 /* Classes */,
+				152CBA06142BED7A008D37E0 /* Plugins */,
+				152CB9E5142BED7A008D37E0 /* Supporting Files */,
+			);
+			path = TwitterLogin;
+			sourceTree = "<group>";
+		};
+		152CB9E5142BED7A008D37E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				152CB9E6142BED7A008D37E0 /* TwitterLogin-Info.plist */,
+				152CB9E7142BED7A008D37E0 /* InfoPlist.strings */,
+				152CB9EA142BED7A008D37E0 /* main.m */,
+				152CB9EC142BED7A008D37E0 /* TwitterLogin-Prefix.pch */,
+				152CBA00142BED7A008D37E0 /* PhoneGap.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		152CB9EF142BED7A008D37E0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				152CB9FE142BED7A008D37E0 /* Capture.bundle */,
+				152CB9F0142BED7A008D37E0 /* icons */,
+				152CB9F7142BED7A008D37E0 /* splash */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		152CB9F0142BED7A008D37E0 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				152CB9F1142BED7A008D37E0 /* icon.png */,
+				152CB9F3142BED7A008D37E0 /* icon@2x.png */,
+				152CB9F5142BED7A008D37E0 /* icon-72.png */,
+			);
+			name = icons;
+			sourceTree = "<group>";
+		};
+		152CB9F7142BED7A008D37E0 /* splash */ = {
+			isa = PBXGroup;
+			children = (
+				152CB9F8142BED7A008D37E0 /* Default.png */,
+				152CB9FA142BED7A008D37E0 /* Default@2x.png */,
+				152CB9FC142BED7A008D37E0 /* Default~iPad.png */,
+			);
+			name = splash;
+			sourceTree = "<group>";
+		};
+		152CBA02142BED7A008D37E0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				152CBA03142BED7A008D37E0 /* AppDelegate.h */,
+				152CBA04142BED7A008D37E0 /* AppDelegate.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		152CBA06142BED7A008D37E0 /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				152CBA07142BED7A008D37E0 /* README */,
+			);
+			name = Plugins;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		152CB9C5142BED7A008D37E0 /* TwitterLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 152CBA0A142BED7A008D37E0 /* Build configuration list for PBXNativeTarget "TwitterLogin" */;
+			buildPhases = (
+				152CB9BF142BED7A008D37E0 /* Sources */,
+				152CB9C0142BED7A008D37E0 /* Frameworks */,
+				152CB9C1142BED7A008D37E0 /* Resources */,
+				152CB9C2142BED7A008D37E0 /* Sources */,
+				152CB9C3142BED7A008D37E0 /* Frameworks */,
+				152CB9C4142BED7A008D37E0 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TwitterLogin;
+			productName = TwitterLogin;
+			productReference = 152CB9C6142BED7A008D37E0 /* TwitterLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		152CB9BA142BED7A008D37E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Code for America";
+			};
+			buildConfigurationList = 152CB9BD142BED7A008D37E0 /* Build configuration list for PBXProject "TwitterLogin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 152CB9B8142BED7A008D37E0;
+			productRefGroup = 152CB9C7142BED7A008D37E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				152CB9C5142BED7A008D37E0 /* TwitterLogin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		152CB9C1142BED7A008D37E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				152CB9E9142BED7A008D37E0 /* InfoPlist.strings in Resources */,
+				152CB9F2142BED7A008D37E0 /* icon.png in Resources */,
+				152CB9F4142BED7A008D37E0 /* icon@2x.png in Resources */,
+				152CB9F6142BED7A008D37E0 /* icon-72.png in Resources */,
+				152CB9F9142BED7A008D37E0 /* Default.png in Resources */,
+				152CB9FB142BED7A008D37E0 /* Default@2x.png in Resources */,
+				152CB9FD142BED7A008D37E0 /* Default~iPad.png in Resources */,
+				152CB9FF142BED7A008D37E0 /* Capture.bundle in Resources */,
+				152CBA01142BED7A008D37E0 /* PhoneGap.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		152CB9C4142BED7A008D37E0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "\n\t\t\t\t\t\t\t\tif [ ! -d \"$PROJECT_DIR/www\" ] ; then\n\t\t\t\t\t\t\t\t\tcp -R /Users/Shared/PhoneGap/Frameworks/PhoneGap.framework/www \"$PROJECT_DIR\"\n\t\t\t\t\t\t\t\tfi\n\t\t\t\t\t\t\t\t# detect www folder reference in project, if missing, print warning\n\t\t\t\t\t\t\t\tgrep \"{isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = \\\"<group>\\\"; };\" \"$PROJECT_DIR/$PROJECT_NAME.xcodeproj/project.pbxproj\"\n\t\t\t\t\t\t\t\trc=$? \n\t\t\t\t\t\t\t\tif [ $rc != 0 ] ; then\n\t\t\t\t\t\t\t\techo -e \"warning: Missing - Add $PROJECT_DIR/www as a folder reference in your project. Just drag and drop the folder into your project, in Xcode 4.\" 1>&2\n\t\t\t\t\t\t\t\tfi\t\t\t\t\t\t\t";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		152CB9BF142BED7A008D37E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				152CB9EB142BED7A008D37E0 /* main.m in Sources */,
+				152CBA05142BED7A008D37E0 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		152CB9C2142BED7A008D37E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		152CB9E7142BED7A008D37E0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				152CB9E8142BED7A008D37E0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		152CBA08142BED7A008D37E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		152CBA09142BED7A008D37E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		152CBA0B142BED7A008D37E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = /Users/Shared/PhoneGap/Frameworks;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TwitterLogin/TwitterLogin-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "PHONEGAP_FRAMEWORK=YES";
+				INFOPLIST_FILE = "TwitterLogin/TwitterLogin-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		152CBA0C142BED7A008D37E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = /Users/Shared/PhoneGap/Frameworks;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TwitterLogin/TwitterLogin-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "PHONEGAP_FRAMEWORK=YES";
+				INFOPLIST_FILE = "TwitterLogin/TwitterLogin-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		152CB9BD142BED7A008D37E0 /* Build configuration list for PBXProject "TwitterLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				152CBA08142BED7A008D37E0 /* Debug */,
+				152CBA09142BED7A008D37E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		152CBA0A142BED7A008D37E0 /* Build configuration list for PBXNativeTarget "TwitterLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				152CBA0B142BED7A008D37E0 /* Debug */,
+				152CBA0C142BED7A008D37E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 152CB9BA142BED7A008D37E0 /* Project object */;
+}
