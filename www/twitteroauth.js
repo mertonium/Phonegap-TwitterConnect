@@ -14,10 +14,11 @@ TwitterConnect.prototype.install = function() {
   return window.plugins.twitterConnect;
 }
 
-TwitterConnect.prototype.connect = function() {
+TwitterConnect.prototype.connect = function(opts) {
   accessor = { 
-    consumerKey   : "lL5DK3LIAieoa2284xA", 
-    consumerSecret: "8q335T7twVUT5NHRYjb9tdD2jsRilXB4qrQKRkwf0", 
+    consumerKey   : opts.consumerKey, 
+    consumerSecret: opts.consumerSecret, 
+    finalCallback : opts.callback,
     serviceProvider: { 
       signatureMethod     : "HMAC-SHA1", 
       requestTokenURL     : "http://api.twitter.com/oauth/request_token", 
@@ -81,7 +82,7 @@ function twitterLocChanged(loc, requestToken, accessor){
         localStorage.twitter_secret_token = params["oauth_token_secret"];
         localStorage.twitter_user_name = params["screen_name"];
         localStorage.twitter_user_id = params["user_id"];
-        navigator.notification.alert('done twitter, put callback here');
+        accessor.finalCallback();
       }
     };
     requestAccess.open(message.method, message.action, true);
