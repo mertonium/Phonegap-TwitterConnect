@@ -1,11 +1,12 @@
 function TwitterConnect() {
+  // Dependency check
   if(window.ChildBrowser == null) {
     ChildBrowser.install();
   }
 }
 
 // Note: this plugin does NOT install itself, call this method some time after deviceready to install it
-// it will be returned, and also available globally from window.plugins.fbConnect
+// it will be returned, and also available globally from window.plugins.twitterConnect
 TwitterConnect.prototype.install = function() {
   if(!window.plugins) {
     window.plugins = {};  
@@ -19,6 +20,7 @@ TwitterConnect.prototype.connect = function(opts) {
     consumerKey   : opts.consumerKey, 
     consumerSecret: opts.consumerSecret, 
     finalCallback : opts.callback,
+    oauthCallbackUrl: opts.oauthCallbackUrl,
     serviceProvider: { 
       signatureMethod     : "HMAC-SHA1", 
       requestTokenURL     : "http://api.twitter.com/oauth/request_token", 
@@ -45,7 +47,7 @@ TwitterConnect.prototype.connect = function(opts) {
       var authorize_url = "http://api.twitter.com/oauth/authorize?oauth_token="+oauth_token;
       client_browser = ChildBrowser.install();
       client_browser.onLocationChange = function(loc){
-        twitterLocChanged(loc, requestToken, accessor);
+         window.plugins.twitterConnect.twitterLocChanged(loc, requestToken, accessor);
       };
       if (client_browser != null) {
         window.plugins.childBrowser.showWebPage(authorize_url);
@@ -58,9 +60,10 @@ TwitterConnect.prototype.connect = function(opts) {
   requestToken.send(requestBody);
 };
 
-function twitterLocChanged(loc, requestToken, accessor){
+TwitterConnect.prototype.twitterLocChanged = function(loc, requestToken, accessor) {
+//function twitterLocChanged(loc, requestToken, accessor){
   /* Here we check if the url is the login success */
-  if (loc.indexOf("http://artmapper.org/oauth/callback") > -1) {
+  if (loc.indexOf(accessor.oauthCallbackUrl) > -1) {
     client_browser.close();
     var results = OAuth.decodeForm(requestToken.responseText);
     message = {
@@ -77,7 +80,7 @@ function twitterLocChanged(loc, requestToken, accessor){
     var requestAccess = new XMLHttpRequest();
     requestAccess.onreadystatechange = function receiveAccessToken() {
       if (requestAccess.readyState == 4) {
-        var params = get_url_vars_from_string(requestAccess.responseText);
+        var params = window.plugins.twitterConnect.get_url_vars_from_string(requestAccess.responseText);
         localStorage.twitter_token = params["oauth_token"];
         localStorage.twitter_secret_token = params["oauth_token_secret"];
         localStorage.twitter_user_name = params["screen_name"];
@@ -92,7 +95,8 @@ function twitterLocChanged(loc, requestToken, accessor){
 }
 
 // helper
-function get_url_vars_from_string(url) {
+TwitterConnect.prototype.get_url_vars_from_string = function(url) {
+//function get_url_vars_from_string(url) {
     var vars = [], hash;
     var hashes = url.slice(url.indexOf('?') + 1).split('&');
     for(var i = 0; i < hashes.length; i++)

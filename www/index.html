@@ -65,6 +65,7 @@
       var tcOpts = {
         consumerKey   : "lL5DK3LIAieoa2284xA",
         consumerSecret: "8q335T7twVUT5NHRYjb9tdD2jsRilXB4qrQKRkwf0",
+        oauthCallbackUrl: "http://artmapper.org/oauth/callback",
         callback : function() {
             navigator.notification.alert('done with twitter, in the callback now');
         }
@@ -78,6 +79,6 @@
   <body onload="onBodyLoad()">
   	  <h1>Hey, it's PhoneGap!</h1>
 	  <p>Don't know how to get started? Check out <em><a href="http://github.com/phonegap/phonegap-start">PhoneGap Start</a></em>
-    <a href="#" id="login">Login</a>
+    <p><a href="#" id="login">Login with Twitter</a></p>
   </body>
 </html>
