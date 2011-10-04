@@ -32,6 +32,19 @@
 		152CB9FF142BED7A008D37E0 /* Capture.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 152CB9FE142BED7A008D37E0 /* Capture.bundle */; };
 		152CBA01142BED7A008D37E0 /* PhoneGap.plist in Resources */ = {isa = PBXBuildFile; fileRef = 152CBA00142BED7A008D37E0 /* PhoneGap.plist */; };
 		152CBA05142BED7A008D37E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 152CBA04142BED7A008D37E0 /* AppDelegate.m */; };
+		152CBA15142BEDFD008D37E0 /* www in Resources */ = {isa = PBXBuildFile; fileRef = 152CBA14142BEDFD008D37E0 /* www */; };
+		152CBA27142BEE30008D37E0 /* arrow_left.png in Resources */ = {isa = PBXBuildFile; fileRef = 152CBA17142BEE30008D37E0 /* arrow_left.png */; };
+		152CBA28142BEE30008D37E0 /* arrow_right.png in Resources */ = {isa = PBXBuildFile; fileRef = 152CBA18142BEE30008D37E0 /* arrow_right.png */; };
+		152CBA29142BEE30008D37E0 /* but_refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 152CBA19142BEE30008D37E0 /* but_refresh.png */; };
+		152CBA2B142BEE30008D37E0 /* ChildBrowserCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 152CBA1C142BEE30008D37E0 /* ChildBrowserCommand.m */; };
+		152CBA2C142BEE30008D37E0 /* ChildBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 152CBA1E142BEE30008D37E0 /* ChildBrowserViewController.m */; };
+		152CBA2D142BEE30008D37E0 /* ChildBrowserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 152CBA1F142BEE30008D37E0 /* ChildBrowserViewController.xib */; };
+		152CBA2E142BEE30008D37E0 /* compass.png in Resources */ = {isa = PBXBuildFile; fileRef = 152CBA20142BEE30008D37E0 /* compass.png */; };
+		152CBA2F142BEE30008D37E0 /* facebook.html in Resources */ = {isa = PBXBuildFile; fileRef = 152CBA22142BEE30008D37E0 /* facebook.html */; };
+		152CBA30142BEE30008D37E0 /* FBConnect.js in Sources */ = {isa = PBXBuildFile; fileRef = 152CBA23142BEE30008D37E0 /* FBConnect.js */; };
+		152CBA31142BEE30008D37E0 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 152CBA24142BEE30008D37E0 /* index.html */; };
+		152CBA32142BEE30008D37E0 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 152CBA25142BEE30008D37E0 /* README.txt */; };
+		152CBA33142BEE30008D37E0 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 152CBA26142BEE30008D37E0 /* README.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,10 +62,10 @@
 		152CB9DE142BED7A008D37E0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		152CB9E0142BED7A008D37E0 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		152CB9E2142BED7A008D37E0 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
-		152CB9E6142BED7A008D37E0 /* TwitterLogin-Info.plist */ = {isa = PBXFileReference; path = "TwitterLogin-Info.plist"; sourceTree = "<group>"; };
+		152CB9E6142BED7A008D37E0 /* TwitterLogin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TwitterLogin-Info.plist"; sourceTree = "<group>"; };
 		152CB9E8142BED7A008D37E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		152CB9EA142BED7A008D37E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		152CB9EC142BED7A008D37E0 /* TwitterLogin-Prefix.pch */ = {isa = PBXFileReference; path = "TwitterLogin-Prefix.pch"; sourceTree = "<group>"; };
+		152CB9EC142BED7A008D37E0 /* TwitterLogin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TwitterLogin-Prefix.pch"; sourceTree = "<group>"; };
 		152CB9ED142BED7A008D37E0 /* PhoneGap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhoneGap.framework; path = /Users/Shared/PhoneGap/Frameworks/PhoneGap.framework; sourceTree = "<absolute>"; };
 		152CB9F1142BED7A008D37E0 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = Resources/icons/icon.png; sourceTree = "<group>"; };
 		152CB9F3142BED7A008D37E0 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "Resources/icons/icon@2x.png"; sourceTree = "<group>"; };
@@ -62,9 +75,24 @@
 		152CB9FC142BED7A008D37E0 /* Default~iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default~iPad.png"; path = "Resources/splash/Default~iPad.png"; sourceTree = "<group>"; };
 		152CB9FE142BED7A008D37E0 /* Capture.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Capture.bundle; path = Resources/Capture.bundle; sourceTree = "<group>"; };
 		152CBA00142BED7A008D37E0 /* PhoneGap.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PhoneGap.plist; sourceTree = "<group>"; };
-		152CBA03142BED7A008D37E0 /* AppDelegate.h */ = {isa = PBXFileReference; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
+		152CBA03142BED7A008D37E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
 		152CBA04142BED7A008D37E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
-		152CBA07142BED7A008D37E0 /* README */ = {isa = PBXFileReference; name = README; path = Plugins/README; sourceTree = "<group>"; };
+		152CBA07142BED7A008D37E0 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; name = README; path = Plugins/README; sourceTree = "<group>"; };
+		152CBA14142BEDFD008D37E0 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
+		152CBA17142BEE30008D37E0 /* arrow_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_left.png; sourceTree = "<group>"; };
+		152CBA18142BEE30008D37E0 /* arrow_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_right.png; sourceTree = "<group>"; };
+		152CBA19142BEE30008D37E0 /* but_refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = but_refresh.png; sourceTree = "<group>"; };
+		152CBA1B142BEE30008D37E0 /* ChildBrowserCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildBrowserCommand.h; sourceTree = "<group>"; };
+		152CBA1C142BEE30008D37E0 /* ChildBrowserCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildBrowserCommand.m; sourceTree = "<group>"; };
+		152CBA1D142BEE30008D37E0 /* ChildBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildBrowserViewController.h; sourceTree = "<group>"; };
+		152CBA1E142BEE30008D37E0 /* ChildBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildBrowserViewController.m; sourceTree = "<group>"; };
+		152CBA1F142BEE30008D37E0 /* ChildBrowserViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChildBrowserViewController.xib; sourceTree = "<group>"; };
+		152CBA20142BEE30008D37E0 /* compass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compass.png; sourceTree = "<group>"; };
+		152CBA22142BEE30008D37E0 /* facebook.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = facebook.html; sourceTree = "<group>"; };
+		152CBA23142BEE30008D37E0 /* FBConnect.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = FBConnect.js; sourceTree = "<group>"; };
+		152CBA24142BEE30008D37E0 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		152CBA25142BEE30008D37E0 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		152CBA26142BEE30008D37E0 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +130,7 @@
 		152CB9B8142BED7A008D37E0 = {
 			isa = PBXGroup;
 			children = (
+				152CBA14142BEDFD008D37E0 /* www */,
 				152CB9E4142BED7A008D37E0 /* TwitterLogin */,
 				152CB9C9142BED7A008D37E0 /* Frameworks */,
 				152CB9C7142BED7A008D37E0 /* Products */,
@@ -202,9 +231,39 @@
 		152CBA06142BED7A008D37E0 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
+				152CBA16142BEE30008D37E0 /* ChildBrowser */,
 				152CBA07142BED7A008D37E0 /* README */,
 			);
 			name = Plugins;
+			sourceTree = "<group>";
+		};
+		152CBA16142BEE30008D37E0 /* ChildBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				152CBA17142BEE30008D37E0 /* arrow_left.png */,
+				152CBA18142BEE30008D37E0 /* arrow_right.png */,
+				152CBA19142BEE30008D37E0 /* but_refresh.png */,
+				152CBA1B142BEE30008D37E0 /* ChildBrowserCommand.h */,
+				152CBA1C142BEE30008D37E0 /* ChildBrowserCommand.m */,
+				152CBA1D142BEE30008D37E0 /* ChildBrowserViewController.h */,
+				152CBA1E142BEE30008D37E0 /* ChildBrowserViewController.m */,
+				152CBA1F142BEE30008D37E0 /* ChildBrowserViewController.xib */,
+				152CBA20142BEE30008D37E0 /* compass.png */,
+				152CBA21142BEE30008D37E0 /* FBConnectExample */,
+				152CBA26142BEE30008D37E0 /* README.txt */,
+			);
+			path = ChildBrowser;
+			sourceTree = "<group>";
+		};
+		152CBA21142BEE30008D37E0 /* FBConnectExample */ = {
+			isa = PBXGroup;
+			children = (
+				152CBA22142BEE30008D37E0 /* facebook.html */,
+				152CBA23142BEE30008D37E0 /* FBConnect.js */,
+				152CBA24142BEE30008D37E0 /* index.html */,
+				152CBA25142BEE30008D37E0 /* README.txt */,
+			);
+			path = FBConnectExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,6 +328,16 @@
 				152CB9FD142BED7A008D37E0 /* Default~iPad.png in Resources */,
 				152CB9FF142BED7A008D37E0 /* Capture.bundle in Resources */,
 				152CBA01142BED7A008D37E0 /* PhoneGap.plist in Resources */,
+				152CBA15142BEDFD008D37E0 /* www in Resources */,
+				152CBA27142BEE30008D37E0 /* arrow_left.png in Resources */,
+				152CBA28142BEE30008D37E0 /* arrow_right.png in Resources */,
+				152CBA29142BEE30008D37E0 /* but_refresh.png in Resources */,
+				152CBA2D142BEE30008D37E0 /* ChildBrowserViewController.xib in Resources */,
+				152CBA2E142BEE30008D37E0 /* compass.png in Resources */,
+				152CBA2F142BEE30008D37E0 /* facebook.html in Resources */,
+				152CBA31142BEE30008D37E0 /* index.html in Resources */,
+				152CBA32142BEE30008D37E0 /* README.txt in Resources */,
+				152CBA33142BEE30008D37E0 /* README.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +366,9 @@
 			files = (
 				152CB9EB142BED7A008D37E0 /* main.m in Sources */,
 				152CBA05142BED7A008D37E0 /* AppDelegate.m in Sources */,
+				152CBA2B142BEE30008D37E0 /* ChildBrowserCommand.m in Sources */,
+				152CBA2C142BEE30008D37E0 /* ChildBrowserViewController.m in Sources */,
+				152CBA30142BEE30008D37E0 /* FBConnect.js in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +489,7 @@
 				152CBA0C142BED7A008D37E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -24,8 +24,6 @@
 		<string>Contacts</string>
 		<key>DebugConsole</key>
 		<string>DebugConsole</string>
-		<key>Contacts</key>
-		<string>Contacts</string>
 		<key>File</key>
 		<string>File</string>
 		<key>FileTransfer</key>
@@ -44,6 +42,8 @@
 		<string>Sound</string>
 		<key>Capture</key>
 		<string>Capture</string>
+		<key>ChildBrowserCommand</key>
+		<string>ChildBrowserCommand</string>
 	</dict>
 </dict>
 </plist>
