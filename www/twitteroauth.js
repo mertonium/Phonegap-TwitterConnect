@@ -13,7 +13,7 @@ TwitterConnect.prototype.install = function() {
   }
   window.plugins.twitterConnect = new TwitterConnect();
   return window.plugins.twitterConnect;
-}
+};
 
 TwitterConnect.prototype.connect = function(opts) {
   accessor = { 
@@ -92,7 +92,7 @@ TwitterConnect.prototype.twitterLocChanged = function(loc, requestToken, accesso
     requestAccess.setRequestHeader("Authorization", OAuth.getAuthorizationHeader("", message.parameters));
     requestAccess.send(); 
   }
-}
+};
 
 // helper
 TwitterConnect.prototype.get_url_vars_from_string = function(url) {
@@ -106,4 +106,4 @@ TwitterConnect.prototype.get_url_vars_from_string = function(url) {
         vars[hash[0]] = hash[1];
     }
     return vars;
-}
+};
