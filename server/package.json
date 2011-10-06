@@ -1,0 +1,12 @@
+{
+  "name":"couchauth",
+  "version":"0.0.1",
+  "description":"Service that verifies a twitter oauth token and returns an authenticated CouchDB session",
+  "author":"John Mertens <john@mertonium.com> (http://mertonium.com)",
+  "repository":{ "type" : "git", "url" : "http://github.com/" },
+  "dependencies": {
+    "express":"2.3.4"
+  },
+  "engines" : { "node" : ">=0.4.7" },
+  "main":"server.js"
+}

@@ -4,4 +4,4 @@
 build/
 xcuserdata
 .xcodeproj/!*.xcodeproj/project.pbxproj
-
+server/node_modules
