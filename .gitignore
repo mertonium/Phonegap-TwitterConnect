@@ -6,3 +6,4 @@ xcuserdata
 .xcodeproj/!*.xcodeproj/project.pbxproj
 server/node_modules
 server/mockpostload.json
+server/npm-debug.log
