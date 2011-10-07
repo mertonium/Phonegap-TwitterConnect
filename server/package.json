@@ -5,7 +5,8 @@
   "author":"John Mertens <john@mertonium.com> (http://mertonium.com)",
   "repository":{ "type" : "git", "url" : "http://github.com/" },
   "dependencies": {
-    "express":"2.3.4"
+    "express":"2.3.4",
+    "cradle":"0.5.7"
   },
   "engines" : { "node" : ">=0.4.7" },
   "main":"server.js"
